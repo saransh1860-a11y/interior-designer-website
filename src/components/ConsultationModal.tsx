@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { Phone, MessageSquare, X, CheckCircle2, Loader2 } from 'lucide-react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { db, handleFirestoreError, OperationType } from '../lib/firebase';
 
@@ -34,7 +34,7 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
       setIsSuccess(true);
       setTimeout(() => {
         setIsSuccess(false);
-        setFormData({ name: '', phone: '', service: 'Residential Interior' });
+        setFormData({ name: '', phone: '', service: 'Interior Design' });
         onClose();
       }, 3000);
     } catch (err) {

@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Home, Paintbrush, Building2, Compass, FileText } from 'lucide-react';
+import { Home, Paintbrush, Building2, Compass, FileText, ArrowUpRight } from 'lucide-react';
 
 const services = [
   {
