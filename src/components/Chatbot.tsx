@@ -60,8 +60,8 @@ export default function Chatbot() {
                   <Sparkles className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-serif text-lg leading-tight">Design Assistant</h3>
-                  <span className="text-[10px] uppercase tracking-widest opacity-60">Design Excel Studio</span>
+                  <h3 className="font-serif text-lg leading-tight">Design Excel Architects</h3>
+                  <span className="text-[10px] uppercase tracking-widest opacity-60">AI Design Assistant</span>
                 </div>
               </div>
               <button 
@@ -134,7 +134,7 @@ export default function Chatbot() {
         whileTap={{ scale: 0.95 }}
         onClick={() => setIsOpen(!isOpen)}
         className="w-16 h-16 rounded-full bg-luxury-ink text-white shadow-2xl flex items-center justify-center relative group"
-        aria-label="Toggle Design Assistant"
+        aria-label="Toggle Design Excel Architects AI Assistant"
       >
         <AnimatePresence mode="wait">
           {isOpen ? (
