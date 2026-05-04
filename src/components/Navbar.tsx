@@ -37,10 +37,10 @@ export default function Navbar({ onConsultationClick }: NavbarProps) {
         <div className="container mx-auto px-6 flex items-center justify-between">
           <a href="#" className="flex flex-col items-start leading-none group">
             <span className="text-2xl font-serif font-bold tracking-tighter text-luxury-ink group-hover:text-luxury-gold transition-colors duration-300">
-              DESIGN EXCEL
+              AMAIRA INTERIORS
             </span>
             <span className="text-[10px] font-accent tracking-[0.3em] uppercase opacity-60">
-              Architects
+              Interior Decorator
             </span>
           </a>
 
@@ -59,8 +59,8 @@ export default function Navbar({ onConsultationClick }: NavbarProps) {
             </div>
             
             <div className="flex items-center gap-4">
-               <a href="tel:+919050705520" className="flex items-center gap-2 text-sm font-medium hover:text-luxury-gold transition-colors">
-                  <Phone className="w-4 h-4" /> 090507 05520
+               <a href="tel:+919540547745" className="flex items-center gap-2 text-sm font-medium hover:text-luxury-gold transition-colors">
+                  <Phone className="w-4 h-4" /> 095405 47745
                 </a>
               <button
                 onClick={onConsultationClick}
@@ -119,13 +119,13 @@ export default function Navbar({ onConsultationClick }: NavbarProps) {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
-                href="tel:+919050705520"
+                href="tel:+919540547745"
                 className="flex items-center gap-3 text-luxury-ink font-medium uppercase tracking-widest text-xs"
               >
                 <div className="w-10 h-10 rounded-full border border-luxury-ink/10 flex items-center justify-center">
                   <Phone className="w-4 h-4" />
                 </div>
-                Call Now: 90507 05520
+                Call Now: 95405 47745
               </motion.a>
             </div>
           </motion.div>

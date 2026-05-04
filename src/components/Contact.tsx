@@ -29,7 +29,7 @@ export default function Contact() {
                 <div>
                   <h4 className="text-sm uppercase tracking-widest font-accent font-bold opacity-60 mb-2">Our Studio</h4>
                   <p className="text-lg font-light max-w-xs">
-                    Design Excel Architects, Jalbera Rd, near Satsang Bhavan, Parshuram Nagar, Ambala, Haryana 134008
+                    Amaira Interiors, 174-L, Daya Nand Colony, Model Town, Karnal, Haryana 132001
                   </p>
                 </div>
               </div>
@@ -41,7 +41,7 @@ export default function Contact() {
                 <div>
                   <h4 className="text-sm uppercase tracking-widest font-accent font-bold opacity-60 mb-2">Call Us</h4>
                   <p className="text-lg font-light">
-                    <a href="tel:+919050705520" className="hover:text-luxury-gold transition-colors">090507 05520</a>
+                    <a href="tel:+919540547745" className="hover:text-luxury-gold transition-colors">095405 47745</a>
                   </p>
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function Contact() {
             
             <div className="mt-12 overflow-hidden rounded-2xl h-64 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-700 shadow-2xl">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13757.869400267868!2d76.7656461!3d30.3496358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fb7858c73b069%3A0xe53a3e6af3320ef!2sDesign%20Excel%20Architects%20-%20Architect%20%7C%20Interior%20Designer%20%7C%20Valuer!5e0!3m2!1sen!2sin!4v1714492000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13781.9961734336!2d76.979069!3d29.689694!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e439976332bf1%3A0xc39281a8b307ec32!2sAmaira%20Interiors!5e0!3m2!1sen!2sin!4v1714492000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

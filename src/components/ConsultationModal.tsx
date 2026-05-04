@@ -13,7 +13,7 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
-    service: 'Interior Design'
+    service: 'Wallpaper Installation'
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -121,11 +121,11 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
                         onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                         className="w-full border-b border-luxury-ink/20 bg-transparent py-2 focus:border-luxury-gold focus:outline-none transition-colors"
                       >
-                        <option>Home Building & Renovations</option>
-                        <option>Interior Design</option>
-                        <option>Vastu Experts</option>
-                        <option>Architecture</option>
-                        <option>Valuer</option>
+                        <option>Wallpaper Installation</option>
+                        <option>PVC & UV Sheets</option>
+                        <option>WPC Louvers & Blinds</option>
+                        <option>Interior Decoration</option>
+                        <option>Art & Custom Paintings</option>
                       </select>
                     </div>
                     {error && <p className="text-red-500 text-xs">{error}</p>}
@@ -147,10 +147,10 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
               )}
 
               <div className="mt-8 flex items-center justify-center gap-6 border-t border-luxury-ink/10 pt-8">
-                <a href="tel:+919050705520" className="flex items-center gap-2 text-sm font-medium hover:text-luxury-gold transition-colors">
+                <a href="tel:+919540547745" className="flex items-center gap-2 text-sm font-medium hover:text-luxury-gold transition-colors">
                   <Phone className="w-4 h-4" /> Call Now
                 </a>
-                <a href="https://wa.me/919050705520" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm font-medium hover:text-luxury-gold transition-colors">
+                <a href="https://wa.me/919540547745" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm font-medium hover:text-luxury-gold transition-colors">
                   <MessageSquare className="w-4 h-4" /> WhatsApp
                 </a>
               </div>

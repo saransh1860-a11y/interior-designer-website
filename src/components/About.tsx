@@ -50,9 +50,9 @@ export default function About() {
               <span className="italic">Luxury Personal Havens</span>
             </h2>
             <p className="text-luxury-ink/70 leading-relaxed font-light mb-10 text-lg">
-              Started in the heart of Ambala, Design Excel Architects has grown into a beacon of excellence in Haryana. 
-              We believe that every architectural project should be a masterpiece. Our team of expert architects and designers works tirelessly 
-              to marry contemporary trends with timeless elegance and Vastu wisdom.
+              Located in the heart of Karnal, Amaira Interiors has established itself as the leading provider of luxury interior decorative solutions. 
+              We specialize in high-end wallpapers, PVC panels, and modern decor elements. Our team works tirelessly 
+              to marry contemporary trends with timeless elegance and quality craftsmanship.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">

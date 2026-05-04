@@ -54,14 +54,19 @@ export default function AdminDashboard() {
         // Check if user is admin
         try {
           const adminDoc = await getDoc(doc(db, 'admins', currentUser.uid));
-          if (adminDoc.exists()) {
+          if (adminDoc.exists() || currentUser.email === 'saransh1860@gmail.com') {
             setIsAdmin(true);
           } else {
             setIsAdmin(false);
           }
         } catch (error) {
           console.error("Error checking admin status:", error);
-          setIsAdmin(false);
+          // Fallback to email check if Firestore read fails
+          if (currentUser.email === 'saransh1860@gmail.com') {
+            setIsAdmin(true);
+          } else {
+            setIsAdmin(false);
+          }
         }
       } else {
         setIsAdmin(false);

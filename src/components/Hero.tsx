@@ -27,15 +27,15 @@ export default function Hero({ onConsultationClick }: HeroProps) {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <span className="text-xs uppercase tracking-[0.5em] font-accent text-luxury-gold mb-6 block font-semibold">
-              Architects & Interior Designers in Ambala
+              BEST INTERIOR DECORATOR IN KARNAL
             </span>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif leading-[1.1] mb-8 tracking-tight">
               Design Your <br />
               <span className="italic text-luxury-gold">Dream Space</span>
             </h1>
             <p className="text-lg md:text-xl text-luxury-ink/70 leading-relaxed mb-12 max-w-xl font-light">
-              We blend luxury with comfort to create interiors that reflect your personality. 
-              Award-winning designs tailored for modern living in Haryana.
+              We specialize in PVC, Wallpapers, and Luxury Decor to create interiors that define your style. 
+              Karnal's leading destination for modern home transformations.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-6">
@@ -48,7 +48,7 @@ export default function Hero({ onConsultationClick }: HeroProps) {
               </button>
               
               <div className="flex items-center gap-6">
-                <a href="tel:+919050705520" className="group flex items-center gap-3 text-luxury-ink hover:text-luxury-gold transition-colors duration-300">
+                <a href="tel:+919540547745" className="group flex items-center gap-3 text-luxury-ink hover:text-luxury-gold transition-colors duration-300">
                   <div className="w-12 h-12 rounded-full border border-luxury-ink/10 flex items-center justify-center group-hover:border-luxury-gold transition-colors underline decoration-luxury-gold/30">
                     <Phone className="w-5 h-5" />
                   </div>
@@ -59,12 +59,12 @@ export default function Hero({ onConsultationClick }: HeroProps) {
 
             <div className="mt-16 flex items-center gap-12 border-t border-luxury-ink/10 pt-10">
               <div>
-                <span className="block text-2xl font-serif">4.8★</span>
+                <span className="block text-2xl font-serif">4.6★</span>
                 <span className="text-[10px] uppercase tracking-widest opacity-50 font-medium">Google Rating</span>
               </div>
               <div className="h-10 w-[1px] bg-luxury-ink/10" />
               <div>
-                <span className="block text-2xl font-serif">19</span>
+                <span className="block text-2xl font-serif">9</span>
                 <span className="text-[10px] uppercase tracking-widest opacity-50 font-medium">Reviews</span>
               </div>
               <div className="h-10 w-[1px] bg-luxury-ink/10" />

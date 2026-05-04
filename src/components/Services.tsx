@@ -3,34 +3,34 @@ import { Home, Paintbrush, Building2, Compass, FileText, ArrowUpRight } from 'lu
 
 const services = [
   {
-    title: 'Home Building & Renovations',
-    description: 'Expert construction and modification services to create or upgrade your living space.',
-    icon: Home,
-    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1000&auto=format&fit=crop',
+    title: 'Wallpaper Dealer',
+    description: 'Expert dealer of premium wallpapers with a vast collection of patterns and textures.',
+    icon: Paintbrush,
+    image: 'https://images.unsplash.com/photo-1615529328331-f8917597711f?q=80&w=1000&auto=format&fit=crop',
   },
   {
-    title: 'Interior Design',
-    description: 'Bespoke designs for residential and commercial spaces that blend aesthetic and utility.',
-    icon: Paintbrush,
+    title: 'PVC & UV Sheets',
+    description: 'High-quality PVC panels and UV sheets for durable and stylish wall finishes.',
+    icon: Home,
+    image: 'https://images.unsplash.com/photo-1616486701797-0f33f61038ec?q=80&w=1000&auto=format&fit=crop',
+  },
+  {
+    title: 'WPC Louvers & Blinds',
+    description: 'Modern exterior and interior louver solutions plus high-end customized blinds.',
+    icon: Building2,
+    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e15ca?q=80&w=1000&auto=format&fit=crop',
+  },
+  {
+    title: 'Interior Decoration',
+    description: 'Comprehensive interior styling including artificial grass, vertical gardens and metal decor.',
+    icon: Compass,
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1000&auto=format&fit=crop',
   },
   {
-    title: 'Vastu Experts',
-    description: 'Vastu consultancy ensure that your space is built with positive energy and alignment.',
-    icon: Compass,
-    image: 'https://images.unsplash.com/photo-1581850518616-bcb8188c4436?q=80&w=1000&auto=format&fit=crop',
-  },
-  {
-    title: 'Architecture',
-    description: 'Innovative and sustainable architectural designs for modern home and commercial buildings.',
-    icon: Building2,
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1000&auto=format&fit=crop',
-  },
-  {
-    title: 'Valuer',
-    description: 'Professional property valuation services for legal, financial, and market assessments.',
+    title: 'Art & Custom Paintings',
+    description: 'Bespoke crystal and canvas paintings to add a unique artistic touch to your walls.',
     icon: FileText,
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1000&auto=format&fit=crop',
   },
 ];
 

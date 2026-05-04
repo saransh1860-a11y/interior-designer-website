@@ -5,10 +5,10 @@ export default function Footer() {
         <div className="flex flex-col items-center">
           <div className="flex flex-col items-center leading-none mb-8">
             <span className="text-2xl font-serif font-bold tracking-tighter text-white">
-              DESIGN EXCEL
+              AMAIRA INTERIORS
             </span>
             <span className="text-[10px] font-accent tracking-[0.3em] uppercase text-luxury-gold">
-              Architects
+              Interior Decorator
             </span>
           </div>
           
@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
           
           <p className="text-[10px] uppercase tracking-[0.2em] text-white/30 font-accent">
-            &copy; {new Date().getFullYear()} Design Excel Architects. Crafted with Excellence in Ambala.
+            &copy; {new Date().getFullYear()} Amaira Interiors. Crafted with Excellence in Karnal.
           </p>
         </div>
       </div>
