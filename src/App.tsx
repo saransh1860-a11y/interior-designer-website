@@ -12,7 +12,6 @@ import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Chatbot from './components/Chatbot';
 import ConsultationModal from './components/ConsultationModal';
 import AdminDashboard from './components/AdminDashboard';
 
@@ -50,7 +49,6 @@ export default function App() {
 
       <Footer />
       
-      <Chatbot />
       <ConsultationModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );

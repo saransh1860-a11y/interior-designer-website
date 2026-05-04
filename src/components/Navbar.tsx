@@ -113,7 +113,7 @@ export default function Navbar({ onConsultationClick }: NavbarProps) {
                 }}
                 className="mt-4 bg-luxury-gold text-white px-10 py-5 rounded-full text-sm uppercase tracking-widest"
               >
-                Book Free Consultation
+                Inquiry
               </motion.button>
               <motion.a
                 initial={{ opacity: 0, y: 20 }}
