@@ -328,7 +328,7 @@ export default function AdminDashboard() {
 
       <footer className="py-12 bg-white border-t border-luxury-ink/5 mt-24">
         <div className="container mx-auto px-6 text-center">
-            <p className="text-[10px] uppercase tracking-[0.2em] opacity-40">Design Excel Architects • Private Admin Panel</p>
+            <p className="text-[10px] uppercase tracking-[0.2em] opacity-40">Amaira Interiors • Private Admin Panel</p>
         </div>
       </footer>
     </div>

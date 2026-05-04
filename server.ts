@@ -40,11 +40,14 @@ Guidelines:
 
   // AI API Route
   app.post("/api/chat", async (req, res) => {
+    console.log("Chat request received:", req.body?.userMessage);
     try {
       const { userMessage, chatHistory } = req.body;
       
-      if (!process.env.GEMINI_API_KEY) {
-        throw new Error("GEMINI_API_KEY is not configured.");
+      const apiKey = process.env.GEMINI_API_KEY;
+      if (!apiKey) {
+        console.error("GEMINI_API_KEY is NOT set in the environment.");
+        return res.status(500).json({ error: "Gemini API key is missing. Please set it in your environment variables." });
       }
 
       const model = genAI.getGenerativeModel({ 

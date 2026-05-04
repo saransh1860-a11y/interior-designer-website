@@ -3,52 +3,40 @@ import { useState } from 'react';
 
 const portfolioItems = [
   {
-    title: 'Modern Minimalist Villa',
-    category: 'Residential',
-    image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1000&auto=format&fit=crop',
+    title: 'Luxury Living Wallpaper',
+    category: 'Luxury',
+    image: 'https://images.unsplash.com/photo-1615529328331-f8917597711f?q=80&w=1000&auto=format&fit=crop',
     span: 'md:col-span-2 md:row-span-2'
   },
   {
-    title: 'Corporate HQ Design',
-    category: 'Commercial',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1000&auto=format&fit=crop',
+    title: 'Modern PVC Wall Panel',
+    category: 'Residential',
+    image: 'https://images.unsplash.com/photo-1616486701797-0f33f61038ec?q=80&w=1000&auto=format&fit=crop',
     span: 'md:col-span-1 md:row-span-1'
   },
   {
-    title: 'Boutique Hotel Lobby',
-    category: 'Hospitality',
-    image: 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1000&auto=format&fit=crop',
-    span: 'md:col-span-1 md:row-span-1'
-  },
-  {
-    title: 'Art Deco Living Space',
+    title: 'Designer Louver Entrance',
     category: 'Luxury',
+    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e15ca?q=80&w=1000&auto=format&fit=crop',
+    span: 'md:col-span-1 md:row-span-1'
+  },
+  {
+    title: 'Custom UV Sheet TV Unit',
+    category: 'Residential',
     image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop',
     span: 'md:col-span-1 md:row-span-2'
   },
   {
-    title: 'Minimalist Home Office',
-    category: 'Residential',
+    title: 'Premium Vertical Garden',
+    category: 'Luxury',
     image: 'https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000&auto=format&fit=crop',
     span: 'md:col-span-1 md:row-span-1'
   },
   {
-    title: 'Sleek Urban Penthouse',
-    category: 'Residential',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop',
-    span: 'md:col-span-1 md:row-span-1'
-  },
-  {
-    title: 'High-End Retail Space',
-    category: 'Commercial',
-    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop',
-    span: 'md:col-span-1 md:row-span-1'
-  },
-  {
-    title: 'Royal Master Bedroom',
+    title: 'Artistic Canvas Painting',
     category: 'Luxury',
-    image: 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=1000&auto=format&fit=crop',
-    span: 'md:col-span-2 md:row-span-1'
+    image: 'https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1000&auto=format&fit=crop',
+    span: 'md:col-span-1 md:row-span-1'
   },
 ];
 

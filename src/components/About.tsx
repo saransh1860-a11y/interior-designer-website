@@ -4,7 +4,7 @@ import { Star, Award, ShieldCheck, Clock } from 'lucide-react';
 const stats = [
   { label: 'Craftsmanship', icon: Star, text: 'Exquisite attention to every detail' },
   { label: 'Expertise', icon: Award, text: 'Award-winning design philosophy' },
-  { label: 'Reliability', icon: ShieldCheck, text: 'Highly rated by 19+ happy clients' },
+  { label: 'Reliability', icon: ShieldCheck, text: 'Highly rated by 9+ happy clients' },
   { label: 'Timeliness', icon: Clock, text: 'On-time project completion' },
 ];
 
